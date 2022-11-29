@@ -1,11 +1,11 @@
 #Options 1:
 
 on charger
-  setprop ro.bootmode "normal"
+	setprop ro.bootmode "normal"
 	setprop sys.powerctl "reboot"
 
 #Options 2:
 
 on charger
-  # class_start charger
-  exec u:r:magisk:s0 -- /system/bin/reboot
+	# class_start charger
+	exec u:r:magisk:s0 -- /system/bin/reboot
